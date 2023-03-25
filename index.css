@@ -1,0 +1,89 @@
+/* Changes background colour of each page */
+
+body {
+    background-color: lightseagreen;
+    color: aliceblue;
+}
+
+/* Both H1 and H2 should have the same colours */
+
+h1 {
+    font-family:'Arial Narrow';
+    text-align: center;
+}
+
+h2 {
+    font-family:'Arial Narrow';
+    text-align: center;
+}
+
+/* Navigation bar is at the top and should be centered with its own background colour */
+div {
+    background-color:rgb(209, 219, 229);
+    font-family: Arial;
+    border-style: dotted;
+    border-color: aliceblue;
+    border-radius: 2px;
+    border-width: 3px;
+    width: 205px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* The text for this id should be the same colour on all pages */
+#info-paragraph {
+    color:  rgb(209, 219, 229);
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* The background for every odd number should be a different colour. The even numbers should be the same background colour */
+.every-odd li:nth-child(odd) {
+    background-color: rgb(209, 219, 229);
+    margin: 0 auto;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 4px dotted aliceblue;
+    background-color:lightskyblue;
+    margin: 0 auto;
+}
+
+/* When the mouse hovers the fan site link the colour of the background will change */
+td:hover {
+    background-color:  rgb(209, 219, 229);
+}
+
+/* Any id's called large-paragraph have the same font colour and size */
+#large-paragraph {
+    color: rgb(209, 219, 229);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* This class is for any images used on the pages, they will be a certain pixel size and there needs to be padding to give it some space */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+}
+
+/* This is to keep the contact form centered like everything else */
+form {
+text-align: center;
+}
+
